@@ -1,0 +1,248 @@
+[
+  {
+    "name": "public",
+    "isFile": false,
+    "children": [
+      {
+        "name": "vendor",
+        "isFile": false,
+        "children": [
+          {
+            "name": "app.js",
+            "isFile": true
+          },
+          {
+            "name": "styles",
+            "isFile": false,
+            "children": [
+              {
+                "name": "main.css",
+                "isFile": true
+              },
+              {
+                "name": "theme.css",
+                "isFile": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "src",
+    "isFile": false,
+    "children": [
+      {
+        "name": "middleware",
+        "isFile": false,
+        "children": [
+          {
+            "name": "jwtValidationSetting.js",
+            "isFile": true
+          },
+          {
+            "name": "validationMiddleware.js",
+            "isFile": true
+          },
+          {
+            "name": "middleware.js",
+            "isFile": true
+          }
+        ]
+      },
+      {
+        "name": "controllers",
+        "isFile": false,
+        "children": [
+          {
+            "name": "User",
+            "isFile": false,
+            "children": [
+              {
+                "name": "Profile",
+                "isFile": false,
+                "children": [
+                  {
+                    "name": "Settings",
+                    "isFile": false,
+                    "children": [
+                      {
+                        "name": "Privacy",
+                        "isFile": false,
+                        "children": [
+                          {
+                            "name": "dataController.js",
+                            "isFile": true
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "userController.js",
+                "isFile": true
+              },
+              {
+                "name": "userService.js",
+                "isFile": true
+              }
+            ]
+          },
+          {
+            "name": "Auth",
+            "isFile": false,
+            "children": [
+              {
+                "name": "OAuth",
+                "isFile": false,
+                "children": [
+                  {
+                    "name": "Google",
+                    "isFile": false,
+                    "children": [
+                      {
+                        "name": "googleAuthController.js",
+                        "isFile": true
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Facebook",
+                    "isFile": false,
+                    "children": [
+                      {
+                        "name": "facebookAuthController.js",
+                        "isFile": true
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "authController.js",
+                "isFile": true
+              },
+              {
+                "name": "authService.js",
+                "isFile": true
+              }
+            ]
+          },
+          {
+            "name": "Admin",
+            "isFile": false,
+            "children": [
+              {
+                "name": "Management",
+                "isFile": false,
+                "children": [
+                  {
+                    "name": "UserManagement",
+                    "isFile": false,
+                    "children": [
+                      {
+                        "name": "Roles",
+                        "isFile": false,
+                        "children": [
+                          {
+                            "name": "roleController.js",
+                            "isFile": true
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "models",
+        "isFile": false,
+        "children": [
+          {
+            "name": "User.js",
+            "isFile": true
+          },
+          {
+            "name": "Role.js",
+            "isFile": true
+          }
+        ]
+      },
+      {
+        "name": "routes",
+        "isFile": false,
+        "children": [
+          {
+            "name": "userRoutes.js",
+            "isFile": true
+          },
+          {
+            "name": "authRoutes.js",
+            "isFile": true
+          }
+        ]
+      },
+      {
+        "name": "config",
+        "isFile": false,
+        "children": [
+          {
+            "name": "dbConfig.js",
+            "isFile": true
+          },
+          {
+            "name": "appConfig.js",
+            "isFile": true
+          }
+        ]
+      },
+      {
+        "name": "utils",
+        "isFile": false,
+        "children": [
+          {
+            "name": "logger.js",
+            "isFile": true
+          },
+          {
+            "name": "helper.js",
+            "isFile": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "tests",
+    "isFile": false,
+    "children": [
+      {
+        "name": "user.test.js",
+        "isFile": true
+      },
+      {
+        "name": "auth.test.js",
+        "isFile": true
+      }
+    ]
+  },
+  {
+    "name": "server.js",
+    "isFile": true
+  },
+  {
+    "name": "package.json",
+    "isFile": true
+  },
+  {
+    "name": "README.md",
+    "isFile": true
+  }
+]
